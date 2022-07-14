@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('BackgroundImages/background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.header img{
+    width: 65px;
+}
+
+.register a {
+    color: white;
+}
+
+.point p {
+    color: #fff;
+}
+
+.point {
+    display: flex;
+    align-items: center;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+}
+.products {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+.game {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255, 0.2);
+    border: 1px solid black;
+}
+.buyBtn {
+    background-color: rgb(172, 5, 5, 0.8);
+    color: white;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 17px;
+    padding: 4px;
+    cursor: pointer;
+
+}
+.price {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;
+    z-index: 5;
+}
+.oldPrice {
+    color: rgb(192, 10, 10);
+    text-decoration: line-through;
+}
+
+.reg {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.reg:hover {
+    text-decoration: underline;
+}
+
+.saleBlock h2 {
+    color: rgb(255, 208, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loggedBlock {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.logged {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.hide {
+    display: none;
+}
+
+.logoutBtn {
+    cursor: pointer;
+    background-color: rgb(192, 10, 10, 0);
+    color: white;
+    border: 1px solid rgb(192, 10, 10);
+    border-radius: 10px;
+    padding: 3px;
+    transition: all ease 0.5s;
+}
+.logoutBtn:hover {
+    background-color: rgb(192, 10, 10);
+}

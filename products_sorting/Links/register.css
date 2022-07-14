@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+}
+
+.registerInputs {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+
+}
+.registerInputs input {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.registerButtons {
+    cursor: pointer;
+}
